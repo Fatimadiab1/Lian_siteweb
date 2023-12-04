@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&family=Anton&family=Caveat:wght@600&family=Lilita+One&family=Pacifico&family=Play&family=Prata&family=Roboto:wght@300&family=Style+Script&display=swap');
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+/* Barre de navigation */
+.container-fluid {
+    background-color: white;
+    margin-top: 0;
+
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    transition: all 0.3s ease-in;
+
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.premier {
+    text-decoration: none;
+    color: #353535;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.premier:hover {
+    background-color: black;
+    color: white;
+}
+/* L'en-tete */
+.barre {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+}
+
+.Titre {
+    background-color: black;
+    width: 100%;
+    max-width: 550px;
+    text-wrap: nowrap;
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 45px;
+    transition: all 0.5s ease-out;
+}
+
+.Titre:hover {
+    background-color: white;
+    color: black;
+}
+
+.Sous-titre {
+    padding: 50px;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Bouton1 {
+    background-color: black;
+    display: none;
+    color: white;
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 25px;
+    width: 250px;
+    border-color: white;
+    transition: all 0.5s ease-out;
+}
+
+.Bouton1:hover {
+    background-color: white;
+    color: black;
+}
+
+/* deuxieme partie */
+.titre {
+    color: black;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+}
+
+.titresous {
+    color: black;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+}
+
+.sous {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #353535;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+/* other */
+.other{
+    margin-top: 100px;
+}
+.Other{
+text-align: center;
+}
+/* footer */
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height:450px;
+    background-color: #6c6c6c;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+display:flex;
+justify-content: flex-end;
+}
+
+.entrer {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.Adress {
+    width: 350px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.bouton2 {
+    width: 90px;
+    height: 35px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    font-weight: 600;
+}
+#premier_projet:hover{
+opacity: 65%;
+}
+#deuxieme_projet:hover{
+    opacity: 65%;
+    }
+    #troisieme_projet:hover{
+        opacity: 65%;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+          }
+        
+          .image-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+        
+          .image-container .hover-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(0, 0, 0);
+            font-size:40px;
+            font-family: 'Roboto', sans-serif;
+            font-weight:1000;
+            padding: 10px;
+            text-align: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s linear;
+          }
+        
+          .image-container:hover .hover-text {
+            visibility: visible;
+            opacity:1;
+          }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1350px) {
+    .barre {
+        height: 500px;
+
+    }
+
+    .section1 {
+        padding: 100px;
+    }
+
+    .Titre {
+        margin-left: 20px;
+        max-width: 450px;
+        padding: 15px;
+    }
+
+    .Sous-titre {
+        margin-left: 65px;
+    }
+
+    .section2 {
+        display: none;
+    }
+
+    .Bouton1 {
+        display: block;
+        margin-left: 105px;
+    }
+}
+
